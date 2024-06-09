@@ -1,0 +1,94 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#cabecera{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 11pt;
+}
+#cabecera a {
+    color: rgb(255, 255, 255);
+    text-trrgb(255, 255, 255)rcase;
+    text-decoration: none;    
+}
+#cabecera a:hover {    
+    color: rgb(112, 111, 111);
+}
+li{
+    padding: 5px;
+    font-family: Roboto Condensed;
+}
+caption{
+    text-align: left;
+    font-family: Roboto Condensed;
+}
+th{
+    padding: 20px;
+    font-family: Roboto Condensed;
+}
+td {
+    text-align: center;
+    font-family: Roboto Condensed;
+    border: 1px solid rgb(155, 147, 147);
+}
+footer{
+    background-color: black;
+    margin-top: 20px;
+}
+#footer{
+    display: flex;
+}
+.ft a{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.ft a:hover{    
+    text-decoration: underline;
+}
+.ide a {
+    list-style-type: none;
+    text-decoration: none;
+}
+.ide a:hover {
+    list-style-type: none;
+    text-decoration: none;
+}
+#ultimo{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.sec{
+    color: white;
+    margin-top: 10px;
+}
+.sec a{
+    color: white;
+}
+.icon{
+    padding: 10px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Roboto Condensed;
+}
+main{
+    background-color: rgb(240, 236, 230);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+table{
+    padding: 20px;
+}
